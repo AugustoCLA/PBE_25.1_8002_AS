@@ -94,4 +94,27 @@ A documentação completa está organizada seguindo as fases da metodologia RUP/
 - **Issues:** Organizadas por fases RUP/UP
 - **Commits:** Referenciando Issues específicas
 
+## ✅ Checklist de Entrega - Avaliação Substitutiva
+
+### **Status Geral: 16/16 ITENS CONCLUÍDOS (100%)** 🎯
+
+| Item | Obrigatório | Entregue | Evidência |
+|------|-------------|----------|-----------|
+| Ambiente de desenvolvimento OK | ✔️ | ✅ | Django funcionando, servidor local |
+| Clone do repositório inicial | ✔️ | ✅ | Repositório GitHub ativo |
+| GitHub Project configurado | ✔️ | ✅ | [Kanban Board](https://github.com/users/AugustoCLA/projects/2 ) |
+| Issues criadas e usadas | ✔️ | ✅ | 13+ Issues organizadas por fases RUP/UP |
+| Site MkDocs publicado | ✔️ | ✅ | [Documentação Online](https://augustocla.github.io/PBE_25.1_8002_AS/ ) |
+| Descrição do problema | ✔️ | ✅ | Seção "Visão Geral" na documentação |
+| Requisitos funcionais e não func. | ✔️ | ✅ | Seção "Iniciação → Design Thinking" |
+| Casos de uso | ✔️ | ✅ | Seção "Iniciação → Casos de Uso" |
+| Diagrama de Classes | ✔️ | ✅ | Seção "Elaboração → Diagramas → Classes" |
+| Definição dos endpoints | ✔️ | ✅ | Seção "Construção → Endpoints" |
+| Models implementados | ✔️ | ✅ | Apps: usuarios, exercicios, treinos, playlists |
+| Serializers implementados | ✔️ | ✅ | Serializers em todos os apps |
+| Views e URLs | ✔️ | ✅ | ViewSets e roteamento funcionais |
+| Admin configurado | ✔️ | ✅ | Django Admin personalizado |
+| Swagger funcionando | ✔️ | ✅ | drf-spectacular configurado |
+| README completo | ✔️ | ✅ | Este documento |
+
 
