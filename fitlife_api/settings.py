@@ -68,11 +68,12 @@ DATABASES = {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'fitlife_db',
         'USER': 'postgres',
-        'PASSWORD': 'postgres',
+        'PASSWORD': 'gugu0301',  # ou a senha que você definiu
         'HOST': 'localhost',
         'PORT': '5432',
     }
 }
+
 
 
 REST_FRAMEWORK = {
@@ -98,3 +99,5 @@ STATIC_URL = '/static/'
 STATIC_ROOT = BASE_DIR / 'staticfiles'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+AUTH_USER_MODEL = 'usuarios.Usuario'

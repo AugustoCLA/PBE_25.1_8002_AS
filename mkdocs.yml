@@ -1,1 +1,52 @@
-site_name: My Docs
+site_name: FitLife - Projeto Back-End
+site_description: Documentação do projeto FitLife - Plataforma de Treinos e Bem-Estar
+site_author: Augusto Cesar Larrossa Amorim
+site_url: https://seu-usuario.github.io/fitlife-projeto/
+
+theme:
+  name: material
+  language: pt
+  palette:
+    - scheme: default
+      primary: blue
+      accent: orange
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+
+nav:
+  - Home: index.md
+  - Iniciação:
+  - Visão Geral: _Iniciação/index.md
+  - 5W2H: _Iniciação/5w2h.md
+  - Design Thinking: _Iniciação/DesignThinking.md
+  - Casos de Uso: _Iniciação/casos_de_uso.md
+  - Elaboração:
+  - Visão Geral: _Elaboração/index.md
+  - Diagrama de Classes: _Elaboração/Diagramas/Classes/diagrama_de_classes.md
+  - Arquitetura: _Elaboração/arquitetura.md
+  - Construção:
+  - Visão Geral: _Construção/index.md
+  - Models: _Construção/models.md
+  - Serializers: _Construção/serializers.md
+  - Views: _Construção/views.md
+  - API Endpoints: _Construção/endpoints.md
+  - Transição:
+  - Visão Geral: _Transição/index.md
+  - Testes: _Transição/testes.md
+  - Guia de Uso: _Transição/guia_uso.md
+
+markdown_extensions:
+  - admonition
+  - codehilite
+  - toc:
+    permalink: true
+  - pymdownx.superfences:
+    custom_fences:
+      - name: mermaid
+        class: mermaid
+        format: !!python/name:pymdownx.superfences.fence_code_format
+plugins:
+- search
