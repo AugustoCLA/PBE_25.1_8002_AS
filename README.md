@@ -10,7 +10,7 @@
 ## Alunos
 |Matrícula | Aluno |
 | -- | -- |
-| 320205169255  |  Augusto Cesar Larrossa de Amorim |
+| 202051692553  |  Augusto Cesar Larrossa de Amorim |
 
 ## Sobre 
 ## 📋 Visão Geral
