@@ -1,8 +1,6 @@
-<<<<<<< HEAD
 # PBE_25.1_8002_AS
 =======
 # NomedoProjeto 
->>>>>>> 75de1d656d7945bcafa1168454512b58a0367bf4
 
 **Número do Grupo**: XX<br>
 **Código da Disciplina**: FGA0208-T01<br>
