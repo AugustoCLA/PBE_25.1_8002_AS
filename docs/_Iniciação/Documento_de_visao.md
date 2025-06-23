@@ -42,46 +42,31 @@ O objetivo da equipe de desenvolvimento é fornecer...
 Os usuários serão....
 </p>
 
-## Recursos do produto
+## Requisitos Funcionais e Não Funcionais
 
-### Conta
+### Requisitos Funcionais
 
-<p align = "justify">
-O cliente poderá realizar seu cadastro....
-</p>
+#### Usuários 
 
-### Loja
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 
-<p align = "justify">
-O cliente poderá cadastrar uma loja única....
-</p>
 
-### Produto
+#### Treinos
 
-<p align = "justify">
-O cliente poderá cadastrar....
-</p>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.....
 
-### Pesquisa sobre Lojas
+#### Playlist
 
-<p align = "justify">
-O cliente poderá pesquisar...
-</p>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua...
+
+## Regras de Negócio
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua...
+
+## Arquitetura
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua...
 
 ## Restrições
 
-<p align = "justify">
 A aplicação não será responsável...
-</p>
-
-## Referências Bibliográficas
-
-> Documento de visão. Disponível em https://www... Acesso em dd/MM/yyYY
-
-> Documento de visão. Disponível em  Acesso em dd/MM/yyYY
-
-## Versionamento
-| Data | Versão | Descrição | Autor(es) |
-| -- | -- | -- | -- |
-| DD/MM/YYYY | 1.0 | Criação do documento | XXX XXXX e ZZZ ZZZZ | 
-
