@@ -1,8 +1,15 @@
-site_name: FitLife - Projeto Back-End
-site_description: Documentação do projeto FitLife - Plataforma de Treinos e Bem-Estar
-site_author: Augusto Cesar Larrossa Amorim
-site_url: https://seu-usuario.github.io/fitlife-projeto/
+# Configuração do site
+site_name: FitLife - API REST
+site_description: 'Plataforma de treinos e bem-estar - Documentação técnica'
+site_author: 'AugustoCLA'
+site_url: 'https://augustocla.github.io/PBE_25.1_8002_AS/'
 
+# Repositório
+repo_name: 'AugustoCLA/PBE_25.1_8002_AS'
+repo_url: 'https://github.com/AugustoCLA/PBE_25.1_8002_AS'
+edit_uri: 'edit/main/docs/'
+
+# Configuração do tema
 theme:
   name: material
   language: pt
@@ -10,43 +17,63 @@ theme:
     - scheme: default
       primary: blue
       accent: orange
+      toggle:
+        icon: material/brightness-7
+        name: Alternar para modo escuro
+    - scheme: slate
+      primary: blue
+      accent: orange
+      toggle:
+        icon: material/brightness-4
+        name: Alternar para modo claro
+  
   features:
     - navigation.tabs
     - navigation.sections
     - navigation.expand
     - navigation.top
+    - search.highlight
+    - content.code.copy
 
+# Estrutura de navegação
 nav:
   - Home: index.md
   - Iniciação:
-  - Visão Geral: _Iniciação/index.md
-  - 5W2H: _Iniciação/5w2h.md
-  - Design Thinking: _Iniciação/DesignThinking.md
-  - Casos de Uso: _Iniciação/casos_de_uso.md
+    - Visão Geral: _Iniciação/index.md
+    - Análise 5W2H: _Iniciação/5w2h.md
+    - Design Thinking: _Iniciação/DesignThinking.md
+    - Casos de Uso: _Iniciação/casos_de_uso.md
   - Elaboração:
-  - Visão Geral: _Elaboração/index.md
-  - Diagrama de Classes: _Elaboração/Diagramas/Classes/diagrama_de_classes.md
-  - Arquitetura: _Elaboração/arquitetura.md
+    - Visão Geral: _Elaboração/index.md
+    - Diagrama de Classes: _Elaboração/Diagramas/Classes/diagrama_de_classes.md
+    - Arquitetura: _Elaboração/arquitetura.md
   - Construção:
-  - Visão Geral: _Construção/index.md
-  - Models: _Construção/models.md
-  - Serializers: _Construção/serializers.md
-  - Views: _Construção/views.md
-  - API Endpoints: _Construção/endpoints.md
+    - Visão Geral: _Construção/index.md
+    - Models: _Construção/models.md
+    - Serializers: _Construção/serializers.md
+    - Views: _Construção/views.md
+    - Endpoints: _Construção/endpoints.md
   - Transição:
-  - Visão Geral: _Transição/index.md
-  - Testes: _Transição/testes.md
-  - Guia de Uso: _Transição/guia_uso.md
+    - Visão Geral: _Transição/index.md
+    - Testes: _Transição/testes.md
+    - Guia de Uso: _Transição/guia_uso.md
 
+# Extensões do Markdown
 markdown_extensions:
   - admonition
-  - codehilite
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.tabbed:
+      alternate_style: true
+  - tables
   - toc:
-    permalink: true
-  - pymdownx.superfences:
-    custom_fences:
-      - name: mermaid
-        class: mermaid
-        format: !!python/name:pymdownx.superfences.fence_code_format
+      permalink: true
+
+# Plugins
 plugins:
-- search
+  - search:
+      lang: pt
