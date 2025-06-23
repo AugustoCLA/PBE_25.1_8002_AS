@@ -4,7 +4,7 @@ A API FitLife segue os princípios REST e oferece endpoints organizados por
 recursos principais. Todos os endpoints retornam dados em formato JSON e
 utilizam códigos de status HTTP padrão.
 ### Base URL
-http://localhost:/api/v/
+http://localhost:/api/
 ### Autenticação
 A API utiliza autenticação JWT (JSON Web Tokens). Inclua o token no header:
 Authorization: Bearer
